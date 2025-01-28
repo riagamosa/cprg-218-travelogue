@@ -1,20 +1,40 @@
 *{
     box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(206, 218, 209);
+}
+
+header,footer{
+    text-align: center;
+    color:rgb(2, 28, 5);
+    padding: 50px;
 }
 
 header{
-    display: flex;
-    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
 }
-#crisp{
+
+#crisp, #handw, #freestone{
     display:flex;
+    align-items: center;
 }
 
-#handw{
-    display: flex;
+div,figure{
+    color: rgb(40, 65, 40);
+    
 }
 
-#freestone{
-    display: flex;
+
+#website{
+    border-radius: 8px;
+    color: darkgreen;
+    text-decoration: none;
 }
 
+#website:hover{
+    background-color: rgb(174, 214, 179);
+}
