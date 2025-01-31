@@ -24,10 +24,8 @@ header{
 }
 
 div,figure{
-    color: rgb(40, 65, 40);
-    
+    margin: 6rem;
 }
-
 
 #website{
     border-radius: 8px;
